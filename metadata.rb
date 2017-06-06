@@ -22,12 +22,8 @@ supports 'smartos'
 supports 'solaris2'
 supports 'suse'
 supports 'ubuntu'
-supports 'windows'
 supports 'zlinux'
 
-depends 'seven_zip'
-depends 'mingw', '>= 1.1'
-
-source_url 'https://github.com/chef-cookbooks/build-essential'
-issues_url 'https://github.com/chef-cookbooks/build-essential/issues'
+source_url 'https://github.com/pbsc/build-essential'
+issues_url 'https://github.com/pbsc/build-essential/issues'
 chef_version '>= 12.5' if respond_to?(:chef_version)
